@@ -1,0 +1,48 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: skyblue;
+}
+
+/* 样式资源 */
+#a {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  backface-visibility: hidden;
+}
+
+#b {
+  width: 100px;
+  height: 100px;
+  background-color: deeppink;
+}
+
+/* 图片资源 */
+
+#box1 {
+  width: 100px;
+  height: 100px;
+  background-image: url(../imgs/angular.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#box2 {
+  width: 100px;
+  height: 100px;
+  background-image: url(../imgs/react.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#box3 {
+  width: 100px;
+  height: 100px;
+  background-image: url(../imgs/vue.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
